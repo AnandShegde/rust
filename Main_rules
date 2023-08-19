@@ -1,0 +1,8 @@
+# Ownership rules:
+* Each value in Rust has a owner.
+* There can be only one owner.
+* Once owner goes out of scope the value is deleted.
+
+# Reference Rules:
+* There can be only one mutable refernce to any data.
+* There can be 2 or more immutable references, but there can't be a mutable reference type to prevent race conditions.
